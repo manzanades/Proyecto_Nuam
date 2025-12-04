@@ -62,13 +62,13 @@ pip install -r requirements.txt
 mkcert permite crear certificados HTTPS locales confiables, requeridos para ejecutar Django con runserver_plus.
 
 Linux
-ejecutar en terminal:
+ejecutar en terminal por defecto:
 sudo apt update
 sudo apt install mkcert libnss3-tools -y
 mkcert -install
 
 Windows
-ejecutar en PowerShell: 
+ejecutar en PowerShell como administrador: 
 Descargar mkcert desde el sitio oficial: 
 Set-ExecutionPolicy Bypass -Scope Process -Force; `iwr https://community.chocolatey.org/install.ps1 -UseBasicParsing | iex 
 choco install mkcert 
@@ -79,6 +79,7 @@ Estos archivos deben quedar en el directorio principal del proyecto. Se deben ge
 en el Simbolo de sistema(Comand Pront) o terminal(Linux)
 EN solo la raíz Proyecto_Nuam-main
 
+Escribe esto cuando tengas la pagina corriendo:
 mkcert localhost
 
 Esto crea archivos similares a:
