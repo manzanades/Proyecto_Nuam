@@ -131,8 +131,16 @@ esto lo enviara directamente al la pagina web
 Al momento de ingresar a al link de la terminal, la pagina se iniciara con un error de seguridad
 Presionar opciones avanzadas, luego presionar continuar a 127.0.0.1:8000/
 
+Credenciales de usuario (pagina nuam)
+Usuario: cliente@gmail.com
+contraseña: cliente123
+
 Si quiere entrar al modo admin es
 https://127.0.0.1:8000/admin/
+
+Credenciales Django admin
+Usuario: ejem1
+contraseña: 12345
 
 Para deterner el proyecto, en la terminal donde se ejecuta usar el comando CTRL + C 
 ▶️ 7️⃣ Orden Correcto para Ejecutar el Proyecto
