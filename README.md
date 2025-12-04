@@ -131,9 +131,13 @@ esto lo enviara directamente al la pagina web
 Al momento de ingresar a al link de la terminal, la pagina se iniciara con un error de seguridad
 Presionar opciones avanzadas, luego presionar continuar a 127.0.0.1:8000/
 
-Credenciales de usuario (pagina nuam)
+Credenciales de usuario (pagina Nuam)
 Usuario: cliente@gmail.com
 contraseña: cliente123
+
+Credenciales de administrador (pagina Nuam)
+Usuario: admin123@gmail.com
+contraseña: admintrador123
 
 Si quiere entrar al modo admin es
 https://127.0.0.1:8000/admin/
