@@ -107,6 +107,7 @@ Para detener:
 docker compose down
 
 6️⃣ Para hacer correr ahora la pagina ejecutar el comando:
+Usar simbolo del sistema (Comand Pront) antes de ejecutar cualquiero comando, asegurandose de estar en la raíz del proyecto(C:\Proyecto_Nuam).
 python manage.py runserver_plus --cert-file localhost+2.pem
 esto levanta el servidor y genera lo siguiente
 WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
@@ -125,7 +126,7 @@ esto lo enviara directamente al la pagina web
 Si quiere entrar al modo admin es
 https://127.0.0.1:8000/admin/
 
-si quiere 
+Para deterner el proyecto, en la terminal donde se ejecuto el proyecto usar el comando 
 ▶️ 7️⃣ Orden Correcto para Ejecutar el Proyecto
 El proyecto debe iniciarse en el siguiente orden:
 Activar el entorno virtual (solo para desarrollo local).
