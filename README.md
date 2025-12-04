@@ -77,7 +77,9 @@ mkcert -install
 🔏 4️⃣ Generar certificados HTTPS
 Estos archivos deben quedar en el directorio principal del proyecto. Se deben generar los certificados para localhost.
 en el Simbolo de sistema(Comand Pront) o terminal(Linux)
-EN solo la rais Proyecto_Nuam mkcert localhost
+EN solo la raíz Proyecto_Nuam
+
+mkcert localhost
 
 Esto crea archivos similares a:
 localhost+2.pem
@@ -107,11 +109,13 @@ Para detener:
 docker compose down
 
 6️⃣ Para hacer correr ahora la pagina ejecutar el comando:
-Usar simbolo del sistema (Comand Pront) antes de ejecutar cualquiero comando, asegurandose de estar en la raíz del proyecto(C:\Proyecto_Nuam).
+Usar simbolo del sistema (Comand Pront) antes de ejecutar cualquiero comando, asegurandose de estar en la raíz del proyecto(\Proyecto_Nuam).
 python manage.py runserver_plus --cert-file localhost+2.pem
-esto levanta el servidor y genera lo siguiente
+esto levanta el servidor y genera lo siguiente:
+
 WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
- * Running on https://127.0.0.1:8000 SELECIONE ESTO 
+ * Running on https://127.0.0.1:8000 SELECIONAR ESTO PARA INGRESAR RAPIDO A LA PAGINA
+ 
 Press CTRL+C to quit
  * Restarting with stat
 Performing system checks...
@@ -123,10 +127,13 @@ Quit the server with CTRL-BREAK.
 O EN EL NAVEGADOR COLOCAR https://127.0.0.1:8000
 esto lo enviara directamente al la pagina web
 
+Al momento de ingresar a al link de la terminal, la pagina se iniciara con un error de seguridad
+Presionar opciones avanzadas, luego presionar continuar a 127.0.0.1:8000/
+
 Si quiere entrar al modo admin es
 https://127.0.0.1:8000/admin/
 
-Para deterner el proyecto, en la terminal donde se ejecuto el proyecto usar el comando 
+Para deterner el proyecto, en la terminal donde se ejecuta usar el comando CTRL + C 
 ▶️ 7️⃣ Orden Correcto para Ejecutar el Proyecto
 El proyecto debe iniciarse en el siguiente orden:
 Activar el entorno virtual (solo para desarrollo local).
