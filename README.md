@@ -41,7 +41,7 @@ A continuación se presentan los pasos completos.
 
 1️⃣ Utilizar un progama como visual studio code o similiraes como tambien la teminal y power shell
   Entrar al proyecto
-  cd Proyecto_Nuam
+  cd Proyecto_Nuam-main
 🌱 2️⃣ Crear un entorno virtual (environment)
 Es obligatorio para aislar las dependencias debe crear un entorno virtual cerca del proyecto ademas se nesita tener descargado python y pip para funcionar.
 
@@ -77,7 +77,7 @@ mkcert -install
 🔏 4️⃣ Generar certificados HTTPS
 Estos archivos deben quedar en el directorio principal del proyecto. Se deben generar los certificados para localhost.
 en el Simbolo de sistema(Comand Pront) o terminal(Linux)
-EN solo la raíz Proyecto_Nuam
+EN solo la raíz Proyecto_Nuam-main
 
 mkcert localhost
 
@@ -102,14 +102,14 @@ sudo usermod -aG docker $USER
 (Cerrar sesión y volver a entrar o simplemente reinicia)
 
 Docker es el primer servicio que se debe levantar cuando se trabaja en modo contenedores.
-Desde la raíz del Proyecto_Nuam/pulsar-docker en el Simbolo de sistema (Comand Pront) o Teminal(Linux) ejecutar:
+Desde la raíz del Proyecto_Nuam-main/pulsar-docker en el Simbolo de sistema (Comand Pront) o Teminal(Linux) ejecutar:
 docker compose up -d
 Esto levanta todos los servicios definidos dentro de docker-compose.yml.
 Para detener:
 docker compose down
 
 6️⃣ Para hacer correr ahora la pagina ejecutar el comando:
-Usar simbolo del sistema (Comand Pront) antes de ejecutar cualquiero comando, asegurandose de estar en la raíz del proyecto(\Proyecto_Nuam).
+Usar simbolo del sistema (Comand Pront) antes de ejecutar cualquiero comando, asegurandose de estar en la raíz del proyecto(\Proyecto_Nuam-main).
 python manage.py runserver_plus --cert-file localhost+2.pem
 esto levanta el servidor y genera lo siguiente:
 
